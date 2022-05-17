@@ -1,8 +1,0 @@
-.vscode
-node_modules
-dist
-public
-coverage
-/**/*.js
-/**/*.vue
-/src/assets

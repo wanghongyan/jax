@@ -1,37 +1,29 @@
 {
   "compilerOptions": {
-    "target": "es2019",
+    "target": "esnext",
     "module": "esnext",
-    "strict": false,
+    "strict": true,
     "jsx": "preserve",
-    "importHelpers": true,
     "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
     "sourceMap": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "jest"
     ],
     "paths": {
-      "@/*": ["src/*"],
-      "@images/*": ["src/assets/images/*"],
-      "@fonts/*": ["src/assets/fonts/*"],
-      "element-ui": ["node_modules/element-ui-eoi"],
-      "element-ui/*": ["node_modules/element-ui-eoi/*"]
+      "@/*": [
+        "src/*"
+      ]
     },
     "lib": [
       "esnext",
-      "es2019",
-      "es2019.object",
-      "es2018",
-      "es2018.promise",
-      "es2017",
-      "es2017.object",
-      "es2017.string",
       "dom",
       "dom.iterable",
       "scripthost"

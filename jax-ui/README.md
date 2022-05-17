@@ -1,13 +1,34 @@
-# middle-end
+# jax-ui
 
-夏洛克数字运维中台前端
-
-## 启动
-
-```shell
-$ make [ENV=<dev | test | http://URL:PORT>]
+## Project setup
+```
+yarn install
 ```
 
-## 测试环境
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-<https://middle-end.eoitek.net>
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Run your unit tests
+```
+yarn test:unit
+```
+
+### Run your end-to-end tests
+```
+yarn test:e2e
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
